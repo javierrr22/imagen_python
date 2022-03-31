@@ -1,0 +1,45 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.full {
+  background: url('../img/martillo.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	color: #411010;
+	opacity: 1 !important;
+}
+p{
+	color: white !important;
+	text-align: justify;
+}
+.fondoSemiTransparente {
+	background: rgb(128, 128, 128); /* The Fallback */
+   	background: rgba(128, 128, 128, 0.5); 
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+ul li{
+	color: white;
+}
+.psobreNosotros, .pservicios{
+	color: grey !important;
+}
+.centraTexto{
+	text-align: center;
+}
